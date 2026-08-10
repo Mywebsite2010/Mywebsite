@@ -116,22 +116,29 @@ section h2 {
     font-size: 17px;
 }
 
-/* Course cards */
+/* ===== Professional Course Cards ===== */
 
 .cards {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: stretch;
 }
 
 .card {
-    flex: 1;
+    flex: 1 1 280px;
     min-width: 220px;
+    max-width: 360px;
     padding: 25px;
-    background: #f8faff;
-    border: 1px solid #e5e7eb;
-    border-radius: 14px;
+    background: #151d27 !important;
+    color: #e8eef7 !important;
+    border: 1px solid #2d3a4a !important;
+    border-radius: 18px;
     text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
 }
 
 .card-icon {
@@ -140,20 +147,33 @@ section h2 {
 }
 
 .card h3 {
-    color: #1d4ed8;
+    color: #64b5ff !important;
     font-size: 22px;
     margin-bottom: 10px;
 }
 
 .card p {
+    color: #cbd5e1 !important;
     margin-bottom: 15px;
 }
 
 .card a {
-    color: #2563eb;
+    color: #64b5ff !important;
     font-weight: bold;
     text-decoration: none;
 }
+
+@media (max-width: 600px) {
+    .cards {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .card {
+        width: 100%;
+        max-width: none;
+    }
+        }
 
 /* Notes */
 

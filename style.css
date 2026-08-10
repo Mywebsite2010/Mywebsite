@@ -267,8 +267,9 @@ nav {
 /* Sections */
 section {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto 30px;
+    padding: 20px
   box-sizing: border-box;
 }
 

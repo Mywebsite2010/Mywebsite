@@ -276,13 +276,21 @@ section {
 .card,
 .note-box,
 .quiz-section {
-  background: #151d27 !important;
-  color: #e8eef7 !important;
-  border: 1px solid #293544 !important;
+  background: #151d27;
+  color: #e8eef7;
+  border: 1px solid #293544;
   border-radius: 16px;
   box-sizing: border-box;
 }
-
+.card,
+.note-box,
+.quiz-section,
+.question,
+.quiz-card {
+  background: #151d27 !important;
+  color: #e8eef7 !important;
+  border: 1px solid #293544 !important;
+    }
 /* Question cards */
 .question,
 .quiz-card {

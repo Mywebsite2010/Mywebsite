@@ -236,3 +236,94 @@ footer h3 {
         flex-direction: column;
     }
 }
+/* ===== PROFESSIONAL DARK THEME ===== */
+
+html {
+  background: #0b0f14;
+}
+
+body {
+  margin: 0;
+  background: #0b0f14;
+  color: #e8eef7;
+  font-family: Arial, sans-serif;
+}
+
+/* Main website ko center aur full-width look */
+main {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Header / navigation */
+header,
+nav {
+  background: #111820;
+}
+
+/* Sections */
+section {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 30px;
+  box-sizing: border-box;
+}
+
+/* Cards */
+.card,
+.note-box,
+.quiz-section {
+  background: #151d27;
+  color: #e8eef7;
+  border: 1px solid #293544;
+  border-radius: 16px;
+  box-sizing: border-box;
+}
+
+/* Question cards */
+.question,
+.quiz-card {
+  background: #151d27;
+  color: #e8eef7;
+  border: 1px solid #293544;
+  border-radius: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Links */
+a {
+  color: #64b5ff;
+}
+
+/* Buttons */
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 16px;
+}
+
+/* Mobile screen */
+@media (max-width: 600px) {
+  main {
+    padding: 12px;
+  }
+
+  section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .card,
+  .note-box,
+  .quiz-section,
+  .question,
+  .quiz-card {
+    width: 100%;
+  }
+}

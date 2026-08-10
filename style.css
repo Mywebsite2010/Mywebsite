@@ -273,16 +273,7 @@ section {
   box-sizing: border-box;
 }
 
-/* Cards */
-.card,
-.note-box,
-.quiz-section {
-  background: #151d27;
-  color: #e8eef7;
-  border: 1px solid #293544;
-  border-radius: 16px;
-  box-sizing: border-box;
-}
+/* Premium Dark Cards */
 .card,
 .note-box,
 .quiz-section,
@@ -290,8 +281,13 @@ section {
 .quiz-card {
   background: #151d27 !important;
   color: #e8eef7 !important;
-  border: 1px solid #293544 !important;
-    }
+  border: 1px solid #2d3a4a !important;
+  border-radius: 18px !important;
+  padding: 22px !important;
+  box-sizing: border-box !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28) !important;
+  margin-bottom: 20px !important;
+}
 /* Question cards */
 .question,
 .quiz-card {

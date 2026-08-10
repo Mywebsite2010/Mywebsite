@@ -362,3 +362,79 @@ section,
 * {
   box-sizing: border-box;
     }
+/* ===== DARK THEME FOR ALL CONTENT SECTIONS ===== */
+
+.hero,
+section,
+.classes-section,
+.class-page,
+.subject-section,
+.card,
+.cards,
+.note-box,
+.quiz-section,
+.question,
+.quiz-card,
+footer {
+    background: #111820 !important;
+    color: #e8eef7 !important;
+    border-color: #293544 !important;
+}
+
+/* Main content full width + centered */
+main {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+}
+
+/* Every section uses the available screen */
+section {
+    width: 100% !important;
+    max-width: 1100px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+}
+
+/* Cards */
+.card,
+.cards {
+    box-sizing: border-box !important;
+}
+
+.card {
+    border-radius: 16px !important;
+    padding: 20px !important;
+}
+
+/* Text */
+h1, h2, h3, h4, p, li {
+    color: #e8eef7 !important;
+}
+
+/* Links */
+a {
+    color: #64b5ff !important;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    main {
+        padding: 12px !important;
+    }
+
+    section {
+        width: 100% !important;
+        padding: 16px !important;
+    }
+
+    .cards {
+        width: 100% !important;
+    }
+
+    .card {
+        width: 100% !important;
+    }
+    }

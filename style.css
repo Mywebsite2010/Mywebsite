@@ -258,10 +258,25 @@ main {
   box-sizing: border-box;
 }
 
-/* Header / navigation */
+/* Premium Header / Navigation */
 header,
 nav {
-  background: #111820;
+  background: #0f1720 !important;
+  color: #e8eef7 !important;
+  border-bottom: 1px solid #293544 !important;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+}
+
+nav a,
+header a {
+  color: #e8eef7 !important;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+nav a:hover,
+header a:hover {
+  color: #64b5ff !important;
 }
 
 /* Sections */

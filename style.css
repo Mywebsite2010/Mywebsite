@@ -335,3 +335,30 @@ button {
     width: 100%;
   }
 }
+/* Final mobile layout fix */
+html,
+body {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: #0b0f14 !important;
+}
+
+main {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 12px !important;
+  box-sizing: border-box !important;
+}
+
+section,
+.quiz-section {
+  width: 100% !important;
+  max-width: none !important;
+  box-sizing: border-box !important;
+}
+
+* {
+  box-sizing: border-box;
+    }

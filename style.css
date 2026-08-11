@@ -594,3 +594,72 @@ a {
 #real-numbers-quiz input[type="radio"] {
     margin-right: 8px;
     }
+/* ===== Professional Class Cards ===== */
+
+.classes-section {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto 35px !important;
+    text-align: center !important;
+}
+
+.classes-section h2 {
+    font-size: 30px;
+    margin-bottom: 8px;
+    color: #e8eef7 !important;
+}
+
+.classes-section > p {
+    color: #94a3b8 !important;
+    margin-bottom: 25px;
+}
+
+.class-grid {
+    width: 100% !important;
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 18px !important;
+}
+
+.class-grid a {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    min-height: 70px !important;
+    padding: 18px !important;
+
+    background: #151d27 !important;
+    color: #e8eef7 !important;
+
+    border: 1px solid #2d3a4a !important;
+    border-radius: 16px !important;
+
+    text-decoration: none !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+
+    box-sizing: border-box !important;
+    box-shadow: 0 6px 18px rgba(0,0,0,.22) !important;
+
+    transition: transform .2s ease, border-color .2s ease,
+                box-shadow .2s ease !important;
+}
+
+.class-grid a:hover {
+    transform: translateY(-4px) !important;
+    border-color: #64b5ff !important;
+    box-shadow: 0 10px 25px rgba(37,99,235,.25) !important;
+}
+
+@media (max-width: 800px) {
+    .class-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .class-grid {
+        grid-template-columns: 1fr !important;
+    }
+    }

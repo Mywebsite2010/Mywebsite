@@ -916,3 +916,16 @@ a {
         grid-template-columns: 1fr !important;
     }
         }
+/* ===== Mobile Navigation ===== */
+
+@media (max-width: 600px) {
+    nav {
+        padding: 10px 8px !important;
+    }
+
+    nav a {
+        margin: 4px 5px !important;
+        padding: 7px 6px !important;
+        font-size: 14px !important;
+    }
+    }

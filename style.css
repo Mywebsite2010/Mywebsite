@@ -818,3 +818,84 @@ a {
         flex-direction: column;
     }
     }
+/* ===== Premium Course Cards ===== */
+
+#courses {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+#courses > h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #e8eef7 !important;
+}
+
+#courses .cards {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 22px !important;
+    width: 100%;
+}
+
+#courses .card {
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+
+    padding: 28px 22px !important;
+    background: #151d27 !important;
+    color: #e8eef7 !important;
+
+    border: 1px solid #2d3a4a !important;
+    border-radius: 18px !important;
+    box-sizing: border-box !important;
+
+    box-shadow: 0 8px 24px rgba(0,0,0,.25) !important;
+
+    transition: transform .2s ease,
+                border-color .2s ease,
+                box-shadow .2s ease !important;
+}
+
+#courses .card:hover {
+    transform: translateY(-5px) !important;
+    border-color: #64b5ff !important;
+    box-shadow: 0 14px 30px rgba(37,99,235,.22) !important;
+}
+
+#courses .card-icon {
+    font-size: 45px !important;
+    margin-bottom: 12px !important;
+}
+
+#courses .card h3 {
+    color: #64b5ff !important;
+    font-size: 22px !important;
+    margin-bottom: 10px !important;
+}
+
+#courses .card p {
+    color: #cbd5e1 !important;
+    line-height: 1.6 !important;
+}
+
+#courses .card a {
+    display: inline-block;
+    margin-top: 8px;
+    color: #64b5ff !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#courses .card a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+    #courses .cards {
+        grid-template-columns: 1fr !important;
+    }
+        }

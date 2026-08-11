@@ -968,3 +968,62 @@ a {
 #real-numbers-notes strong {
     color: #ffffff !important;
     }
+/* ===== Real Numbers Practice ===== */
+
+#real-numbers-practice {
+    width: 100%;
+    max-width: 1000px;
+    margin: 35px auto;
+}
+
+#real-numbers-practice > h2 {
+    font-size: 30px;
+    color: #64b5ff !important;
+    margin-bottom: 8px;
+}
+
+#real-numbers-practice > p {
+    color: #94a3b8 !important;
+    margin-bottom: 20px;
+}
+
+#real-numbers-practice .card {
+    width: 100% !important;
+    padding: 24px !important;
+    margin-bottom: 18px !important;
+
+    background: #151d27 !important;
+    color: #e8eef7 !important;
+    border: 1px solid #2d3a4a !important;
+    border-radius: 18px !important;
+    box-sizing: border-box !important;
+
+    text-align: left !important;
+}
+
+#real-numbers-practice .card h3 {
+    color: #93c5fd !important;
+    margin-bottom: 10px;
+}
+
+#real-numbers-practice .card p {
+    color: #cbd5e1 !important;
+    line-height: 1.7;
+}
+
+#real-numbers-practice details {
+    margin-top: 15px;
+    padding-top: 12px;
+    border-top: 1px solid #293544;
+}
+
+#real-numbers-practice summary {
+    cursor: pointer;
+    color: #64b5ff;
+    font-weight: bold;
+}
+
+#real-numbers-practice details p {
+    margin-top: 10px;
+    color: #e8eef7 !important;
+    }

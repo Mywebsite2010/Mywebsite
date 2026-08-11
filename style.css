@@ -663,3 +663,12 @@ a {
         grid-template-columns: 1fr !important;
     }
     }
+.class-grid a {
+    flex-direction: column !important;
+    gap: 8px !important;
+}
+
+.class-icon {
+    font-size: 28px !important;
+    line-height: 1 !important;
+}

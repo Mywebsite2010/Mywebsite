@@ -333,32 +333,47 @@ section {
   width: 100%;
   box-sizing: border-box;
 }
-/* Fix quiz question width */
-.quiz-section,
-.quiz-section * {
-    box-sizing: border-box;
-}
+/* Clean Quiz Layout */
 
 .quiz-section {
     width: 100% !important;
     max-width: 1000px !important;
+    margin: 0 auto !important;
+    text-align: left !important;
 }
 
 .question-card {
+    display: block !important;
     width: 100% !important;
     max-width: 100% !important;
+    padding: 24px !important;
+    margin: 0 0 20px 0 !important;
+    text-align: left !important;
+}
+
+.question-card h3 {
     display: block !important;
+    width: 100% !important;
+    font-size: 21px !important;
+    margin: 0 0 12px 0 !important;
 }
 
 .question-card p {
     display: block !important;
     width: 100% !important;
-    max-width: 100% !important;
     font-size: 18px !important;
     line-height: 1.6 !important;
+    margin: 0 0 15px 0 !important;
     white-space: normal !important;
-    word-break: normal !important;
-    overflow-wrap: break-word !important;
+}
+
+.question-card label {
+    display: block !important;
+    width: 100% !important;
+    font-size: 17px !important;
+    line-height: 1.7 !important;
+    padding: 7px 0 !important;
+    white-space: normal !important;
 }
 /* Links */
 a {

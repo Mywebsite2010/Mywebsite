@@ -282,7 +282,100 @@
       <p><strong>Answer: 45</strong></p>
     </details>
   </div>
- </section>   </section>         </section> </section>     </section>    </section>
+<section id="real-numbers-quiz">
+  <h2>🧠 Real Numbers — Quiz</h2>
+  <p>Test your Class 10 Mathematics knowledge.</p>
+
+  <div class="quiz-card">
+    <h3>Question 1</h3>
+    <p>Which of the following is an irrational number?</p>
+
+    <label>
+      <input type="radio" name="q1" value="a"> 3/4
+    </label><br>
+
+    <label>
+      <input type="radio" name="q1" value="b"> √2
+    </label><br>
+
+    <label>
+      <input type="radio" name="q1" value="c"> 0.5
+    </label><br>
+
+    <label>
+      <input type="radio" name="q1" value="d"> 2
+    </label>
+  </div>
+
+  <div class="quiz-card">
+    <h3>Question 2</h3>
+    <p>What is the HCF of 36 and 48?</p>
+
+    <label>
+      <input type="radio" name="q2" value="a"> 6
+    </label><br>
+
+    <label>
+      <input type="radio" name="q2" value="b"> 8
+    </label><br>
+
+    <label>
+      <input type="radio" name="q2" value="c"> 12
+    </label><br>
+
+    <label>
+      <input type="radio" name="q2" value="d"> 18
+    </label>
+  </div>
+
+  <div class="quiz-card">
+    <h3>Question 3</h3>
+    <p>Euclid's division lemma is written as:</p>
+
+    <label>
+      <input type="radio" name="q3" value="a"> a = bq + r
+    </label><br>
+
+    <label>
+      <input type="radio" name="q3" value="b"> a = b + q + r
+    </label><br>
+
+    <label>
+      <input type="radio" name="q3" value="c"> a = bqr
+    </label><br>
+
+    <label>
+      <input type="radio" name="q3" value="d"> a = b - q
+    </label>
+  </div>
+
+  <button onclick="checkRealNumbersQuiz()">
+    Check Answers
+  </button>
+
+  <h3 id="quiz-result"></h3>
+</section>
+
+<script>
+function checkRealNumbersQuiz() {
+  let score = 0;
+
+  if (document.querySelector('input[name="q1"]:checked')?.value === "b") {
+    score++;
+  }
+
+  if (document.querySelector('input[name="q2"]:checked')?.value === "c") {
+    score++;
+  }
+
+  if (document.querySelector('input[name="q3"]:checked')?.value === "a") {
+    score++;
+  }
+
+  document.getElementById("quiz-result").innerHTML =
+    "🎉 Your Score: " + score + " / 3";
+}
+    </script> </section>   </section>         </section> </section>     </section>    </section>
 </main>
 
 <footer>

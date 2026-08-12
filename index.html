@@ -429,7 +429,18 @@
   <button onclick="checkRealNumbersQuiz()">
     Check Answers
   </button>
+    <button onclick="resetRealNumbersQuiz()">
+    🔄 Try Again
+    </button>
+function resetRealNumbersQuiz() {
+    document.querySelectorAll(
+        '#real-numbers-quiz input[type="radio"]'
+    ).forEach(function(input) {
+        input.checked = false;
+    });
 
+    document.getElementById("quiz-result").innerHTML = "";
+}
   <h3 id="quiz-result"></h3>
 </section>
 

@@ -425,23 +425,16 @@
       <input type="radio" name="q3" value="d"> a = b - q
     </label>
   </div>
+    <button onclick="checkRealNumbersQuiz()">
+  Check Answers
+</button>
 
-  <button onclick="checkRealNumbersQuiz()">
-    Check Answers
-  </button>
-    <button onclick="resetRealNumbersQuiz()">
-    🔄 Try Again
-    </button>
-function resetRealNumbersQuiz() {
-    document.querySelectorAll(
-        '#real-numbers-quiz input[type="radio"]'
-    ).forEach(function(input) {
-        input.checked = false;
-    });
+<button onclick="resetRealNumbersQuiz()">
+  🔄 Try Again
+</button>
 
-    document.getElementById("quiz-result").innerHTML = "";
-}
-  <h3 id="quiz-result"></h3>
+<h3 id="quiz-result"></h3>
+
 </section>
 
 <script>
@@ -463,8 +456,7 @@ function checkRealNumbersQuiz() {
   let percentage = Math.round((score / 3) * 100);
 
   document.getElementById("quiz-result").innerHTML =
-    "🎉 Your Score: " + score + " / 3" +
-    " — " + percentage + "%";
+    "🎉 Your Score: " + score + " / 3 — " + percentage + "%";
 }
 
 function resetRealNumbersQuiz() {
@@ -476,8 +468,10 @@ function resetRealNumbersQuiz() {
 
   document.getElementById("quiz-result").innerHTML = "";
 }
-    </script>  </section>
-</main>
+</script>
+
+</section>
+ </main>
 
 <footer>
     <h3>📚 My Education Website</h3>

@@ -449,9 +449,11 @@ function checkRealNumbersQuiz() {
     score++;
   }
 
-  document.getElementById("quiz-result").innerHTML =
-    "🎉 Your Score: " + score + " / 3";
-}
+  let percentage = Math.round((score / 3) * 100);
+
+document.getElementById("quiz-result").innerHTML =
+    "🎉 Your Score: " + score + " / 3" +
+    " — " + percentage + "%";
     </script>  </section>
 </main>
 

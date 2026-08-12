@@ -462,9 +462,20 @@ function checkRealNumbersQuiz() {
 
   let percentage = Math.round((score / 3) * 100);
 
-document.getElementById("quiz-result").innerHTML =
+  document.getElementById("quiz-result").innerHTML =
     "🎉 Your Score: " + score + " / 3" +
     " — " + percentage + "%";
+}
+
+function resetRealNumbersQuiz() {
+  document.querySelectorAll(
+    '#real-numbers-quiz input[type="radio"]'
+  ).forEach(function(input) {
+    input.checked = false;
+  });
+
+  document.getElementById("quiz-result").innerHTML = "";
+}
     </script>  </section>
 </main>
 

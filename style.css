@@ -1190,3 +1190,61 @@ a {
 .chapter-content strong {
     color: #ffffff !important;
     }
+/* ===== Computer PDF Library ===== */
+
+#computer-pdfs {
+    width: 100%;
+    max-width: 1000px;
+    margin: 35px auto;
+}
+
+#computer-pdfs h2 {
+    color: #64b5ff !important;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+#computer-pdfs > p {
+    color: #94a3b8 !important;
+    margin-bottom: 22px;
+}
+
+.pdf-list {
+    display: grid;
+    gap: 12px;
+}
+
+.pdf-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+
+    padding: 16px 18px;
+
+    background: #151d27 !important;
+    color: #e8eef7 !important;
+
+    border: 1px solid #2d3a4a;
+    border-radius: 14px;
+
+    box-sizing: border-box;
+}
+
+.pdf-status {
+    padding: 5px 10px;
+    border-radius: 8px;
+
+    background: #263244;
+    color: #94a3b8;
+
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+    .pdf-item {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    }

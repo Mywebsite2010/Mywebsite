@@ -1869,3 +1869,22 @@ a:hover {
 .continue-learning p {
     color: var(--text-secondary) !important;
     }
+/* ===== APP VIEW MODE ===== */
+
+.app-view {
+    display: none !important;
+}
+
+.app-view.active {
+    display: block !important;
+}
+
+/* Smooth app content */
+main {
+    min-height: 70vh;
+}
+
+/* Keep sections visually separated */
+.app-view > section {
+    margin-bottom: 30px;
+        }

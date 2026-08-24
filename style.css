@@ -1713,3 +1713,60 @@ a {
         font-size: 24px;
     }
     }
+/* ===== Better Text Contrast ===== */
+
+body {
+    color: #e5e7eb;
+}
+
+/* Normal text */
+p {
+    color: #cbd5e1;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4 {
+    color: #f8fafc;
+}
+
+/* Purple links/text */
+a {
+    color: #a78bfa;
+}
+
+a:hover {
+    color: #c4b5fd;
+}
+
+/* Navigation */
+nav a {
+    color: #e2e8f0 !important;
+}
+
+nav a:hover {
+    color: #93c5fd !important;
+}
+
+/* Cards */
+.card p,
+.subject-card p,
+.chapter-card p,
+.chapter-tool p {
+    color: #cbd5e1;
+}
+
+/* Small labels */
+.chapter-tag,
+.dashboard-label,
+.subjects-heading span {
+    color: #93c5fd !important;
+}
+
+/* Important result text */
+#quiz-result {
+    color: #f8fafc;
+    font-weight: 700;
+    }
